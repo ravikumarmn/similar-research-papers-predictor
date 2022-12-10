@@ -1,0 +1,6 @@
+html5lib
+beautifulsoup4
+sentence-transformers
+annoy
+streamlit 
+torch
