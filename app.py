@@ -1,7 +1,7 @@
 import streamlit as st
 from model import sbert_model,ann,json_data,embeddings_dict
 
-st.title("Similar Research Papers Predictor Using Sentence-BERT and AnnoyIndex")
+st.title("Search NeurIPS-2022 Papers")
 
 question = st.text_input("Enter a paper identifier",placeholder='For example : "Attention Is All You Need"')
 topk = st.slider("TopK",1,10,5)
@@ -17,4 +17,3 @@ if question:
 			)
 	question = None
 
-	
