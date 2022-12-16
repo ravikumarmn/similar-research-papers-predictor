@@ -25,8 +25,7 @@ def load_ann(ann_path,embeddings_path):
 	ann = AnnoyIndex(embed_size, 'angular')
 	ann.load(ann_path)
 	return ann
-
-
+ 
 ann = load_ann(config.ANN_PATH,config.EMBEDDINGS_PATH)
 embeddings_dict = load_embeddings(config.EMBEDDINGS_PATH)
 sbert_model = load_model(config.MODEL_STR)

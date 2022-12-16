@@ -1,4 +1,4 @@
-EMBEDDINGS_PATH = "dataset/data_embeddings.pt"
-DATA_PATH="scraped_data/neurips2022.json"
+EMBEDDINGS_PATH = "checkpoints/data_embeddings.pt"        
+DATA_PATH="dataset/neurips2022.json"
 MODEL_STR="pritamdeka/S-Scibert-snli-multinli-stsb"
-ANN_PATH = "dataset/S-Scibert-snli-multinli-stsb.ann"
+ANN_PATH = "checkpoints/S-Scibert-snli-multinli-stsb.ann"
