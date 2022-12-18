@@ -1,5 +1,5 @@
 import streamlit as st
-from model import sbert_model,ann,json_data,embeddings_dict
+from model import sbert_model, ann, json_data, embeddings_dict
 
 st.title("Search NeurIPS-2022 Papers")
 
